@@ -1,0 +1,5 @@
+{
+  "name": "kalamuna/jquery_ns_autogrow",
+  "description": "Forked from ro31337/jquery.ns-autogrow to be used as drupal-library",
+  "type": "drupal-library"
+}
