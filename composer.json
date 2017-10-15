@@ -1,5 +1,21 @@
 {
-  "name": "kalamuna/jquery_ns_autogrow",
-  "description": "Forked from ro31337/jquery.ns-autogrow to be used as drupal-library",
-  "type": "drupal-library"
+  name: "components/jquery_ns_autogrow",
+  description: "Automatically adjust textarea height based on user input. Non-sucking version.",
+  type: "component",
+  license: "MIT",
+  homepage: "https://github.com/components/jquery_ns_autogrow",
+  require: {
+    "components/jquery: ">=1.7.0, < 4.0.0"
+  },
+  extra: {
+    component: {
+      scripts: [
+        "dist/jquery.ns-autogrow.min.js"
+      ],
+      files: [
+        "dist/jquery.ns-autogrow.js",
+        "dist/jquery.ns-autogrow.min.js"
+      ]
+    }
+  }
 }
