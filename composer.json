@@ -1,7 +1,7 @@
 {
   "name": "components/jquery_ns_autogrow",
   "description": "Automatically adjust textarea height based on user input. Non-sucking version.",
-  "type": "component",
+  "type": "drupal-library",
   "license": "MIT",
   "homepage": "https://github.com/components/jquery_ns_autogrow",
   "require": {
